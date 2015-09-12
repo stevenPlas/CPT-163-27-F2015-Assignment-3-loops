@@ -24,7 +24,7 @@ public class Assignment3Loops {
         print("\n");
        
        }
-       while(cont > 0);
+       while(cont == 1);
     }
     //print method
     public static void print(String str){
