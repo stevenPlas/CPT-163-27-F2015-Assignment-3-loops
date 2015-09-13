@@ -3,15 +3,15 @@ import java.util.Scanner;
 
 public class Assignment3Loops {
     public static void main(String[] args) {
-        
+        //Keyboard input
         Scanner keyboard = new Scanner(System.in);
-        int cont;
+        int cont;//do-while variable
         
         print("Welcome to Steve's word Mixer-upper!\n\n");
        do{
         print("Please Enter A word you would "
                 + "Like to mix up: ");        
-        String word = keyboard.nextLine();
+        String word = keyboard.nextLine();//User Input
                 print("\nYour word reversed is: ");
                 for(int i = word.length()-1; i >= 0; i--){
                     System.out.print(word.charAt(i));  
